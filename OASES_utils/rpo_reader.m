@@ -2,7 +2,7 @@
 % each file in the directory
 
 array_size = 15;
-prefix = '/Users/Rui/Desktop/Ice_source/1720_int0.00008/';
+prefix = 'insert path to file folder here';
 directory = dir([prefix '*.txt']);
 
 oasn_rpo = zeros(array_size,length(directory));

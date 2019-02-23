@@ -2,7 +2,7 @@
 % each file in the directory
 
 array_size = 15;
-prefix = '/Users/Rui/Desktop/Ice_source/chk_files/';
+prefix = 'insert path to file folder here';
 directory = dir([prefix '*.chk']);
 
 oasn_cov = zeros(array_size,array_size,length(directory));
